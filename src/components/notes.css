@@ -1,0 +1,55 @@
+li{
+    list-style: none;
+    display: inline-block;
+    margin: 4px;
+    padding: 2px;
+}
+span{
+    cursor: pointer;
+    background-color: brown;
+    color: white;
+    border-radius: 3px;
+    margin: 4px;
+    padding: 3px;
+}
+
+input.success{
+         background-color: darkgreen;
+    border-color: darkgreen;
+    border: 1px solid darkgreen;
+    color: white;
+    padding: 4px;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+form.note{
+flex:1 100%;
+text-align: center;
+
+}
+.note {
+flex-grow: 1;
+  overflow: auto;
+  margin: 0.5em;
+  padding: 0.5em;
+  background-color: #fdfdfd;
+  box-shadow: 0 0 0.3em .03em rgba(0,0,0,.3);
+}
+.note:hover {
+  box-shadow: 0 0 0.3em .03em rgba(0,0,0,.7);
+  transition: .6s;
+}
+
+.note>li{
+    cursor: pointer;
+}
+

@@ -1,0 +1,45 @@
+.container{
+    text-align: center;
+}
+
+nav{
+    text-align: center;
+}
+nav>li{
+    display: inline-block;
+    list-style: none;
+    margin: 5px;
+    padding: 6px;
+}
+
+li .active{
+    background-color: brown;
+    border: 1px solid brown;
+    color: white;
+    border-radius: 18px;
+}
+
+li>a{
+    text-decoration: none;
+    padding: 3px;
+}
+
+ul.sync >li{
+    list-style: none;
+    margin: 10px;
+    color: brown;
+    font-weight: 500;
+    text-align: center;
+    /*transform: padding-left 0.5s;*/
+}
+
+footer{
+        text-align: center;
+    color: brown;
+    font-size: 22px;
+    position: absolute;
+    bottom: 0px;
+}
+/*ul.sync >li:hover{
+padding-left: 4px;
+}*/

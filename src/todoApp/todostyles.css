@@ -1,0 +1,39 @@
+span {
+    margin: 10px;
+    padding: 4px;
+    cursor: pointer;
+}
+
+span.active {
+    background-color: brown;
+    color: white;
+}
+
+p {
+    cursor: pointer;
+    position: relative;
+    transition: padding-left 0.4s;
+    padding: 5px;
+    margin: 4px;
+}
+
+p:hover {
+    padding-left: 10px;
+}
+
+p>button {
+    position: relative;
+    margin: 10px;
+}
+
+p.done {
+    text-decoration: line-through;
+}
+
+.userName{
+    font-size: 25px;
+    padding: 6px;
+    margin: 5px;
+    color: brown;
+    font-weight: 100;
+}
